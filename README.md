@@ -82,4 +82,13 @@ Where indicated, hourly data (then interpolated) from the nearest airport weathe
 
 ## **Conclusion**
 
-**Understanding the consumption of electricity in daily home appliances such as washing machines, televisions, microwaves etc., which constitutes the major part of electricity demand of a low energy household, could provide major insights in utilization of electricity. Studying this data is important in finding the key factors that could influence the electricity consumption in appliances and thereby work on those factors to decrease the consumption of electricity by appliances. The problem predicts the appliances usage of electricity based on various factors that could influence the consumption of electricity. The electricity consumption in low energy houses is determined by two main factors, the number of electrical appliances in the house and the usage of appliances by the occupants of the house. There are many factors that could influence the usage by appliances, some of the factors that could influence are the indoor environmental factors near the vicinity of the appliances such as temperature, humidity, light, vibrations etc. The occupancy level of house in different locations could also help in determining the usage of appliances. Developing prediction models for this problem can be useful for many applications such as detecting abnormal energy usage patterns, determining energy demand, to use in building performance simulation etc.**
+**The household appliance energy consumption prediction models based on SVM, GBM and XGB are explored. First, we study the preprocessing of data, remove some features in the filtered data and normalize the data. Second, the grid search method is used to determine the optimal parameters in the model, and the models based on different machine learning methods are established. Finally, the prediction performance of each model was evaluated and compared. The results show that among the four prediction models established by the traditional machine learning method, SVM can achieve good results in the training set and the testing set, with the best prediction performance.GBM and XGB has the worst performance in the training set. The four models based on traditional machine learning are all relatively average in predicting performance. The prediction performance of the model based on SVM is much better than that of the model based on traditional machine learning, and the predicted value of SVM model is very close to the real value, it has advantages in terms of household appliance energy consumption prediction.**
+
+
+## **References**
+
+https://medium.com/analytics-vidhya/appliances-energy-prediction-2562af6ad3d9
+
+https://www.academia.edu/48852012/Appliance_Energy_Prediction_Using_Time_Series_Forecasting_A_comparative_analysis_of_different_Machine_Learning_Algorithms
+
+https://iopscience.iop.org/article/10.1088/1742-6596/1453/1/012064/pdf
