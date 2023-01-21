@@ -1,6 +1,6 @@
 # Appliances Energy Prediction
 
-![image](https://user-images.githubusercontent.com/87980985/213869036-925e41a2-fe48-4b80-b150-3872e89e8367.png)
+![image](https://user-images.githubusercontent.com/87980985/213869197-2877f179-b16e-4eaa-be59-966ad2aabdb5.png)
 
 ## **Problem Statement**
 **Prediction :- The electrical energy consumption of a Appliances.**
@@ -72,10 +72,12 @@ The dataset contains features like:
 
 * **RH_out**=Humidity outside (from Chievres weather station), in %
 
-### **Target Variable :**
+**Target Variable :**
+
 * **Appliances** = energy use in Wh (Dependent variable)
 
 Where indicated, hourly data (then interpolated) from the nearest airport weather station(Chievres Airport, Belgium) was downloaded from a public data set from Reliable Prognosis,rp5.ru. Permission was obtained from Reliable Prognosis for the distribution of the 4.5 months of weather data.
+
 ---
 
 ## **Conclusion**
