@@ -1,16 +1,14 @@
-# Appliances_Energy_Prediction
+# Appliances Energy Prediction
 
-Supervised Machine Learning Capstone Project
+![image](https://user-images.githubusercontent.com/87980985/213869036-925e41a2-fe48-4b80-b150-3872e89e8367.png)
 
 ## **Problem Statement**
-
-### **Prediction :- The electrical energy consumption of a Appliances.**
+**Prediction :- The electrical energy consumption of a Appliances.**
 ---
 
 ## **Dataset description**
 The data set is at 10 min for about 4.5 months. The house temperature and humidity conditions were monitored with a ZigBee wireless sensor network. Each wireless node transmitted the temperature and humidity conditions around 3.3 min. Then, the wireless data was averaged for 10 minutes periods. The energy data was logged every 10 minutes with m-bus energy meters. Weather from the nearest airport weather station (Chievres Airport, Belgium) was downloaded from a public data set from Reliable Prognosis (rp5.ru) and merged together with the experimental data sets using the date and time column.
 
-----
 The dataset contains features like:
 
 * **date**= time year-month-day hour:minute:second
