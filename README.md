@@ -1,9 +1,11 @@
-# Appliances Energy Prediction
+# **Appliances Energy Prediction**
 
 ![image](https://user-images.githubusercontent.com/87980985/213869197-2877f179-b16e-4eaa-be59-966ad2aabdb5.png)
 
+**This project shows that how much impact weather conditions have in our day-today energy consumption in home. Whenever the atomospheric pressure is low or high, there's a evident change in the way enegry is consumed.**
+
 ## **Problem Statement**
-**Prediction :- The electrical energy consumption of a Appliances.**
+We should predict Appliance energy consumption for a house based on factors like temperature, humidity & pressure . In order to achieve this, we need to develop a supervised learning models using regression algorithms. Regression algorithms are used as data consist of continuous features and there are no identification of appliances in dataset
 ---
 
 ## **Dataset description**
