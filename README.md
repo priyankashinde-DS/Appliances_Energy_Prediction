@@ -2,16 +2,18 @@
 
 ![image](https://user-images.githubusercontent.com/87980985/213869197-2877f179-b16e-4eaa-be59-966ad2aabdb5.png)
 
-**This project shows that how much impact weather conditions have in our day-today energy consumption in home. Whenever the atomospheric pressure is low or high, there's a evident change in the way enegry is consumed.**
+**In this project i shows that how much impact weather conditions have in our day-today energy consumption in home. Whenever the atomospheric pressure is low or high, there's a evident change in the way enegry is consumed.**
 
 ## **Problem Statement**
 We should predict Appliance energy consumption for a house based on factors like temperature, humidity & pressure . In order to achieve this, we need to develop a supervised learning models using regression algorithms. Regression algorithms are used as data consist of continuous features and there are no identification of appliances in dataset
----
+
 
 ## **Dataset description**
 The data set is at 10 min for about 4.5 months. The house temperature and humidity conditions were monitored with a ZigBee wireless sensor network. Each wireless node transmitted the temperature and humidity conditions around 3.3 min. Then, the wireless data was averaged for 10 minutes periods. The energy data was logged every 10 minutes with m-bus energy meters. Weather from the nearest airport weather station (Chievres Airport, Belgium) was downloaded from a public data set from Reliable Prognosis (rp5.ru) and merged together with the experimental data sets using the date and time column.
 
 The dataset contains features like:
+
+
 
 * **date**= time year-month-day hour:minute:second
 
